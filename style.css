@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    padding: 40px 0px;
+    background-color:rgb(25, 25, 36);
+}
+.navbar .logo{
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 12px;
+    color: aliceblue;
+}
+.two{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(25, 25, 36);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.two h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    width: 500px;
+    margin-bottom: 70px;
+}
+.two p{
+    color: grey;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 500px;
+}
+.buttons .bir{
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: blue;
+}
+.buttons .iki{
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: rgb(25, 25, 36);
+}
+.third{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.third div{
+    width: 300px;
+    height: 300px;
+    
+}
+.third i{
+    width: 40px;
+    height: 40px;
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+ i{
+    color: aliceblue;
+}
+.third h1{
+    padding: 20px;
+    margin-right: 50px;
+}
+.four {
+     width: 100%;
+     height: 100px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+     margin-top: 20px;
+}
+.four h1{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.four p{
+    color: rgb(36, 35, 35);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.five{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.five div{
+    width: 300px;
+    height: 400px;
+    
+}
+.five h4{
+    font-size: 20px;
+    color: rgb(71, 70, 70);
+}
+.five ul li{
+    font-size: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+.buttons button{
+    width: 100px;
+    height: 50px;
+    background-color: aliceblue;
+    border-radius: 10px ;
+    color:blue;
+    cursor: pointer;
+}
+.button .iki{
+    background-color: blue;
+}
+.six{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.six h1 p{
+    text-align: center;
+}
+.seven{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.seven div{
+    width: 400px;
+    height: 150px;
+}
+.seven i{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    padding: 5px;
+    color: aliceblue;
+}
+.eight{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.eight div{
+    width: 400px;
+    height: 150px;
+}
+.eight i{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    padding: 5px;
+    color: aliceblue;
+    
+}
+.nine{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.nine i{
+    width: 60px;
+    height: 60px;
+    background-color:blue ;
+    padding: 20px;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.ten{
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eleven{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(35, 41, 41) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.eleven h3{
+    color: aliceblue;
+}
